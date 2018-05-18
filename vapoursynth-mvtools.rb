@@ -18,7 +18,7 @@ class VapoursynthMvtools < Formula
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
     #ln_sf Dir[lib/"*.dylib"], (HOMEBREW_PREFIX/"lib/vapoursynth")
-    #(HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
-    system "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth/"
+    (HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
+    #system "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"
   end
 end
