@@ -14,7 +14,7 @@ class VapoursynthMvtools < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure"
+    system "./configure", "--prefix=#{prefix}"
     system "make", "install"
   end
 end
