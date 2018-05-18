@@ -16,7 +16,7 @@ class VapoursynthMvtools < Formula
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
-    #lib.install_symlink lib/"libmvtools.dylib" => "vapoursynth/libmvtools.dylib"
+    lib.install_symlink lib/"libmvtools.dylib" => "vapoursynth/libmvtools.dylib"
 
   end
 end
