@@ -9,6 +9,7 @@ class VapoursynthMvtools < Formula
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
   depends_on "yasm" => :build
+  depends_on "vapoursynth"
 
   def install
     system "./autogen.sh"
