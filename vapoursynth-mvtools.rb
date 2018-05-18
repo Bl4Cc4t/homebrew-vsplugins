@@ -14,7 +14,10 @@ class VapoursynthMvtools < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure", "--prefix=/usr/local/lib/vapoursynth"
+    system "./configure", "--prefix=#{prefix}"
+    system "make"
     system "make", "install"
+    lib.install_symlink Dir["#{HOMEBREW_PREFIX}/lib/vapoursynth/*"]
+
   end
 end
