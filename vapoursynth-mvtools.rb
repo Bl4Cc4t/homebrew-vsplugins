@@ -18,7 +18,7 @@ class VapoursynthMvtools < Formula
     system "make"
     system "make", "install"
     #ln_sf lib/libmvtools.dylib "#{HOMEBREW_PREFIX}/lib/vapoursynth"
-    "#{HOMEBREW_PREFIX}/lib/vapoursynth/".install_symlink Dir["#{lib}/*"]
+    lib.install_symlink lib/"*" => "vapoursynth/*"
 
   end
 end
