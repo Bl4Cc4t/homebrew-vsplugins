@@ -6,16 +6,18 @@ class VspZnedi3 < Formula
   sha256 "5a0a00f3783ececf3d430cdafea6bd7815a1a4c01ea2a8a19b01ae8a4e2d031d"
   head "https://github.com/sekrit-twc/znedi3.git"
 
+  patch do
+    url ""
+    sha256 "c2172890b00edb06ddcd420c9eb6878377cf1ddf583eb12f9fabe3b8c554d8fb"
+  end
+
   depends_on "libtool" => :build
-  #depends_on "cmake" => :build
   depends_on "vapoursynth"
 
   def install
-    inreplace "Makefile" do |s|
-      s.gsub! "vsznedi3.so", "vsznedi3.dylib"
-      s.gsub! "-shared $(MY_LDFLAGS) $^ $(MY_LIBS) -o $@", "-dynamiclib $(MY_LDFLAGS) $^ $(MY_LIBS) -o #{lib}/$@"
-    end
     system "make", "X86=1"
+  end
+  def post_install
     ohai "When you’re done installing plugins:"
     ohai "Please run linkvsp.sh to link the libraries."
   end
