@@ -16,6 +16,7 @@ class VspZnedi3 < Formula
 
   def install
     system "make", "X86=1"
+    system "make", "install"
   end
   def post_install
     ohai "When you’re done installing plugins:"
