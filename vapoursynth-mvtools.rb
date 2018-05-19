@@ -17,8 +17,13 @@ class VapoursynthMvtools < Formula
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
+    ohai "Please run lolwait"
+  end
+  postflight do
+    system "ln",
+            args: ["-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"],
+            sudo: true
     #ln_sf Dir[lib/"*.dylib"], (HOMEBREW_PREFIX/"lib/vapoursynth")
-    (HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
-    #system "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"
+    #(HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
   end
 end
