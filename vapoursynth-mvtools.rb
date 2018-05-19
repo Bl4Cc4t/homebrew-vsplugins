@@ -19,7 +19,7 @@ class VapoursynthMvtools < Formula
     system "make", "install"
     ohai "Please run lolwait"
   end
-  postflight do
+  def post_install
     system "ln",
             args: ["-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"],
             sudo: true
