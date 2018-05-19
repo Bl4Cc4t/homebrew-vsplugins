@@ -20,7 +20,7 @@ class VapoursynthMvtools < Formula
     ohai "Please run lolwait"
   end
   def post_install
-    system "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"],
+    system "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth",
             sudo: true
     #ln_sf Dir[lib/"*.dylib"], (HOMEBREW_PREFIX/"lib/vapoursynth")
     #(HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
