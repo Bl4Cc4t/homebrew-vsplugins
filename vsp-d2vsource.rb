@@ -1,8 +1,8 @@
 class VspD2vsource < Formula
   desc "D2V parser and decoder for VapourSynth"
   homepage "https://github.com/dwbuiten/d2vsource"
-  url "https://github.com/dwbuiten/d2vsource/archive/v1.1.tar.gz"
   version "1.1"
+  url "https://github.com/dwbuiten/d2vsource/archive/v1.1.tar.gz"
   sha256 "e7c33a7bfde29c5f539a9c7e78c14c43b3c8248b861eee0845f6c77081b7fd77"
   head "https://github.com/dwbuiten/d2vsource.git"
 

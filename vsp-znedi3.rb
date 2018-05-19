@@ -7,7 +7,7 @@ class VspZnedi3 < Formula
   head "https://github.com/sekrit-twc/znedi3.git"
 
   patch do
-    url ""
+    url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/modified-installations/patches/vsp-znedi3.patch"
     sha256 "c2172890b00edb06ddcd420c9eb6878377cf1ddf583eb12f9fabe3b8c554d8fb"
   end
 
