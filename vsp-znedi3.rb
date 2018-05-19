@@ -13,7 +13,7 @@ class VspZnedi3 < Formula
   def install
     inreplace "Makefile" do |s|
       s.gsub! "vsznedi3.so", "vsznedi3.dylib"
-      s.gsub! "shared", "dynamiclib"
+      s.gsub! "-shared $(MY_LDFLAGS) $^ $(MY_LIBS) -o $@", "-dynamiclib $(MY_LDFLAGS) $^ $(MY_LIBS) -o #{lib}/$@"
     end
     system "make", "X86=1"
     ohai "When you’re done installing plugins:"
