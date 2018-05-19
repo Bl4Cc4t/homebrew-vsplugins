@@ -17,11 +17,8 @@ class VapoursynthMvtools < Formula
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
     system "make", "install"
-    ohai "Please run lolwait"
-  end
-  def post_install
-    system "sudo", "ln", "-s", lib/"*.dylib", HOMEBREW_PREFIX/"lib/vapoursynth"
-    #ln_sf Dir[lib/"*.dylib"], (HOMEBREW_PREFIX/"lib/vapoursynth")
-    #(HOMEBREW_PREFIX/"lib/vapoursynth").install_symlink Dir[lib/"*.dylib"]
+    ohai "Please run the following command to symlink the library:"
+    ohai "ln -s #{lib}/*dylib #{HOMEBREW_PREFIX}/lib/vapoursynth"
+    ohai "Or run linkvsp.sh :)"
   end
 end
