@@ -12,6 +12,7 @@ class VspSangnom < Formula
   depends_on "libtool" => :build
 
   def install
+    system "chmod", "0555", "./autogen.sh"
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
