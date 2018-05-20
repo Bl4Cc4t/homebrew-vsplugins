@@ -8,15 +8,15 @@ class VspZnedi3 < Formula
 
   patch do
     url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/modified-installations/patches/vsp-znedi3.patch"
-    sha256 "8f4f3f8c63cbe9695424ff54516cf2163b78e69b44f3b8a7c5a752ad686323fb"
+    sha256 "7f54acbd369ef126e47f96a68c9bb1b5fca4f0f27437e21e00352b8dd4980a1f"
   end
 
   depends_on "libtool" => :build
-  depends_on "cmake" => :build
   depends_on "vapoursynth"
 
   def install
     system "make", "X86=1"
+    system "mkdir", "-p", "#{lib}"
     system "make", "install"
   end
   def post_install
