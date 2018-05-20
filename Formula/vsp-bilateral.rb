@@ -6,6 +6,7 @@ class VspBilateral < Formula
   sha256 "d652cc9406b03786a8248cb46ceb51db96ab9b57665aa6ca4ff7c83aa108b305"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral.git"
 
+  depends_on "pkg-config" => :build
   depends_on "vapoursynth"
   depends_on "zimg"
 
