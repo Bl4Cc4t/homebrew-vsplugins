@@ -1,4 +1,4 @@
-class VspVapoursynthMvtools < Formula
+class VspMvtools < Formula
   desc "Motion compensation and stuff"
   homepage "https://github.com/dubhater/vapoursynth-mvtools"
   version "19"
@@ -16,7 +16,9 @@ class VspVapoursynthMvtools < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--disable-debug",
+                          "--disable-dependency-tracking",
+                          "--prefix=#{prefix}"
     system "make", "install"
   end
   def post_install
