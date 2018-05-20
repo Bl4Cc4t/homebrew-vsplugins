@@ -12,6 +12,7 @@ class VspZnedi3 < Formula
   end
 
   depends_on "libtool" => :build
+  depends_on "cmake" => :build
   depends_on "vapoursynth"
 
   def install
