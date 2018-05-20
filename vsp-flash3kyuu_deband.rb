@@ -10,7 +10,7 @@ class VspFlash3kyuuDeband < Formula
   depends_on "python" => :build
 
   def install
-    system "python3", "waf", "configure"
+    system "python3", "waf", "configure", "--prefix=#{prefix}"
     system "python3", "waf", "build"
     system "python3", "waf", "install"
   end
