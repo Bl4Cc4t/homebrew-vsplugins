@@ -13,6 +13,7 @@ class VspFmtconv < Formula
 
   def install
     system "cd", "build/unix"
+    system "ls"
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
