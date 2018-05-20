@@ -12,7 +12,7 @@ class VspFmtconv < Formula
   depends_on "libtool" => :build
 
   def install
-    buildpath.chdir("build/unix")
+    Dir.chdir("#{buildpath}/build/unix")
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
