@@ -11,8 +11,10 @@ class VspAddgrain < Formula
   depends_on "vapoursynth"
 
   def install
-    system "./configure", "--prefix=#{prefix}"
-    system "make", "install"
+    system "./configure"
+    system "make"
+    prefix.install Dir["*.md"]
+    lib.install Dir["*.dylib"]
   end
   def post_install
     ohai ""
