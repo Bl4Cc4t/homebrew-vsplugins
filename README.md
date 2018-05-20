@@ -36,9 +36,9 @@ chmod 4511 linkvsp.sh
 List of Plugins
 ---------------
 
-+[d2vsource](https://github.com/dwbuiten/d2vsource)
-+[ffms2](https://github.com/FFMS/ffms2)
-+[flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
-+[fmtconv](https://github.com/EleonoreMizo/fmtconv)
-+[mvtools](https://github.com/dubhater/vapoursynth-mvtools)
-+[znedi3](https://github.com/sekrit-twc/znedi3)
+- [d2vsource](https://github.com/dwbuiten/d2vsource)
+- [ffms2](https://github.com/FFMS/ffms2)
+- [flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
+- [fmtconv](https://github.com/EleonoreMizo/fmtconv)
+- [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+- [znedi3](https://github.com/sekrit-twc/znedi3)
