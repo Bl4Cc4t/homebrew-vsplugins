@@ -33,5 +33,6 @@ List of Plugins
 
 -[d2vsource](https://github.com/dwbuiten/d2vsource)
 -[ffms2](https://github.com/FFMS/ffms2)
+-[flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
 -[mvtools](https://github.com/dubhater/vapoursynth-mvtools)
 -[znedi3](https://github.com/sekrit-twc/znedi3)
