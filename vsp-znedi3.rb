@@ -15,7 +15,7 @@ class VspZnedi3 < Formula
   depends_on "vapoursynth"
 
   def install
-    inreplace "Makefile", do |s|
+    inreplace "Makefile" do |s|
       s.gsub! "vsznedi3.so", "vsznedi3.dylib"
       s.gsub! "shared", "dynamiclib"
     end
