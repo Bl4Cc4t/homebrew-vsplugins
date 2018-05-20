@@ -13,7 +13,6 @@ class VspFmtconv < Formula
 
   def install
     Dir.chdir("#{buildpath}/build/unix")
-    ohai Dir.pwd
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
