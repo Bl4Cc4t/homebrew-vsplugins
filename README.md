@@ -28,4 +28,10 @@ chmod 4511 linkvsp.sh
 ./linkvsp.sh
 ```
 
-Test
+List of Plugins
+---------------
+
+-[d2vsource](https://github.com/dwbuiten/d2vsource)
+-[ffms2](https://github.com/FFMS/ffms2)
+-[mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+-[znedi3](https://github.com/sekrit-twc/znedi3)
