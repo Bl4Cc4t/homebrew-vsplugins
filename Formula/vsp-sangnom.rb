@@ -1,4 +1,4 @@
-class VspFmtconv < Formula
+class VspSangnom < Formula
   desc "VapourSynth Single Field Deinterlacer"
   homepage "https://bitbucket.org/James1201/vapoursynth-sangnom"
   # version "r40"
