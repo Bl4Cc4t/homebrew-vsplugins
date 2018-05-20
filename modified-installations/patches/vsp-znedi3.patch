@@ -1,5 +1,5 @@
 diff --git a/Makefile b/Makefile
-index 92edfb9..d63ca56 100644
+index 92edfb9..8cb5170 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -3,6 +3,7 @@ MY_CXXFLAGS := -std=c++14 -O2 -fPIC $(CXXFLAGS)
@@ -10,7 +10,7 @@ index 92edfb9..d63ca56 100644
  
  znedi3_HDRS = \
  	znedi3/align.h \
-@@ -66,13 +67,19 @@ ifeq ($(X86_AVX512), 1)
+@@ -66,13 +67,20 @@ ifeq ($(X86_AVX512), 1)
    MY_CPPFLAGS := -DZNEDI3_X86_AVX512 $(MY_CPPFLAGS)
  endif
  
@@ -26,14 +26,15 @@ index 92edfb9..d63ca56 100644
 +	$(CXX) -dynamiclib $(MY_LDFLAGS) $^ $(MY_LIBS) -o $@
 +
 +install: all
-+	install *.txt $(prefix)
-+	install *.rst $(prefix)
-+	install *.dylib $(prefix)/lib
-+	install *.bin $(prefix)/lib
++	install AUTHORS.txt $(prefix)
++	install gpl2.txt $(prefix)
++	install readme.rst $(prefix)
++	install vsznedi3.dylib $(prefix)/lib
++	install nnedi3_weights.bin $(prefix)/lib
  
  clean:
  	rm -f *.a *.o *.so testapp/testapp testapp/*.o znedi3/*.o znedi3/x86/*.o vsznedi3/*.o vsxx/*.o
-@@ -80,4 +87,4 @@ clean:
+@@ -80,4 +88,4 @@ clean:
  %.o: %.cpp $(znedi3_HDRS) $(testapp_HDRS) $(vsxx_HDRS)
  	$(CXX) -c $(EXTRA_CXXFLAGS) $(MY_CXXFLAGS) $(MY_CPPFLAGS) $< -o $@
  
