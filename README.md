@@ -14,7 +14,7 @@ To install a plugin, simply use `brew install vsp-<pluginname>`
 
 I added the prefix “vsp-” for the ease of linking afterwards. Apart from that, it’s more tidy this way :)
 
-To install *all* plugins, use the following commands [to be expanded]: 
+To install *all* plugins, use the following commands [to be expanded]:
 ```
 brew install --HEAD vsp-d2vsource vsp-ffms2 vsp-flash3kyuu_deband vsp-fmtconv vsp-mvtools vsp-znedi3
 ```
@@ -44,4 +44,5 @@ List of Plugins
 - [fmtconv](https://github.com/EleonoreMizo/fmtconv)
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+- [SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)
 - [znedi3](https://github.com/sekrit-twc/znedi3)
