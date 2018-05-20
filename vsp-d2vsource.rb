@@ -10,15 +10,18 @@ class VspD2vsource < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
-  #depends_on "cmake" => :build
   depends_on "vapoursynth"
   depends_on "ffmpeg"
-  #depends_on "fftw"
 
   def install
     system "./autogen.sh"
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--disable-debug",
+                          "--disable-dependency-tracking",
+                          "--prefix=#{prefix}",
+                          "--enable-avresample"
     system "make", "install"
+  end
+  def post_install
     ohai "When you’re done installing plugins:"
     ohai "Please run linkvsp.sh to link the libraries."
   end
