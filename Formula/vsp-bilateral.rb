@@ -10,10 +10,8 @@ class VspBilateral < Formula
   depends_on "zimg"
 
   def install
-    system "./configure"
-    system "make"
-    prefix.install Dir["*.md"]
-    lib.install Dir["*.dylib"]
+    system "./configure", "--install=#{lib}"
+    system "make", "install"
   end
   def post_install
     ohai ""
