@@ -12,7 +12,7 @@ class VspAddgrain < Formula
   def install
     ENV['PREFIX'] = "#{prefix}"
     system "./configure"
-    system "make"
+    system "make install"
   end
   def post_install
     ohai ""
