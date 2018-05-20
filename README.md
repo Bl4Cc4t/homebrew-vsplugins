@@ -14,6 +14,11 @@ To install a plugin, simply use `brew install vsp-<pluginname>`
 
 I added the prefix “vsp-” for the ease of linking afterwards. Apart from that, it’s more tidy this way :)
 
+To install *all* plugins, use the following commands:
+```
+brew install --HEAD vsp-d2vsource vsp-ffms2 vsp-flash3kyuu_deband vsp-fmtconv vsp-mvtools vsp-znedi3
+```
+The `HEAD` parameter allows Homebrew to download the latest commit from GitHub. This is recommended since some plugins tend to have releases that are way older.
 
 Linking
 -------
@@ -31,8 +36,9 @@ chmod 4511 linkvsp.sh
 List of Plugins
 ---------------
 
--[d2vsource](https://github.com/dwbuiten/d2vsource)
--[ffms2](https://github.com/FFMS/ffms2)
--[flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
--[mvtools](https://github.com/dubhater/vapoursynth-mvtools)
--[znedi3](https://github.com/sekrit-twc/znedi3)
++[d2vsource](https://github.com/dwbuiten/d2vsource)
++[ffms2](https://github.com/FFMS/ffms2)
++[flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
++[fmtconv](https://github.com/EleonoreMizo/fmtconv)
++[mvtools](https://github.com/dubhater/vapoursynth-mvtools)
++[znedi3](https://github.com/sekrit-twc/znedi3)
