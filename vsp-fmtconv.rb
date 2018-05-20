@@ -1,7 +1,7 @@
 class VspFmtconv < Formula
   desc "Format conversion tools for Vapoursynth"
   homepage "https://github.com/EleonoreMizo/fmtconv"
-  version "2.0.0-1"
+  version "r20"
   url "https://github.com/EleonoreMizo/fmtconv/archive/r20.tar.gz"
   sha256 "44f2f2be05a0265136ee1bb51bd08e5a47c6c1e856d0d045cde5a6bbd7b4350c"
   head "https://github.com/EleonoreMizo/fmtconv.git"
@@ -11,12 +11,12 @@ class VspFmtconv < Formula
   depends_on "pkg-config" => :build
 
   def install
-    system "./unix/autogen.sh"
-    system "./unix/configure", "--disable-debug",
+    buildpath.install Dir["build/unix/*"]
+    system "./autogen.sh"
+    system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
-                          "--prefix=#{prefix}",
-                          "--enable-avresample"
-    system "./unix/make", "install"
+                          "--prefix=#{prefix}"
+    system "./make", "install"
   end
   def post_install
     ohai ""
