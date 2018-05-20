@@ -10,7 +10,7 @@ class VspAddgrain < Formula
   depends_on "zimg"
 
   def install
-    system "./configure", "--install=#{prefix}"
+    system "./configure", "--install=#{lib}"
     system "make", "install"
   end
   def post_install
