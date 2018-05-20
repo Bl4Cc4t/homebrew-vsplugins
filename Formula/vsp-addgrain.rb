@@ -6,10 +6,6 @@ class VspAddgrain < Formula
   sha256 "c428d05fb4705616dc9c6fbe5f57b3216e3fb7b9c1cdf6094dfdc85d4eb0b5be"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain.git"
 
-  # depends_on "libtool" => :build
-  # depends_on "pkg-config" => :build
-  # depends_on "vapoursynth"
-
   def install
     system "./configure"
     system "make"
