@@ -36,6 +36,7 @@ chmod 4511 linkvsp.sh
 List of Plugins
 ---------------
 
+- [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)
 - [d2vsource](https://github.com/dwbuiten/d2vsource)
 - [ffms2](https://github.com/FFMS/ffms2)
 - [flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
