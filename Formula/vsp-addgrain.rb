@@ -10,9 +10,8 @@ class VspAddgrain < Formula
   depends_on "zimg"
 
   def install
-    ENV['PREFIX'] = "#{prefix}"
-    system "./configure"
-    system "make install"
+    system "./configure" "--install=#{prefix}"
+    system "make", "install"
   end
   def post_install
     ohai ""
