@@ -17,11 +17,13 @@ class VspD2vsource < Formula
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
-                          "--prefix=#{prefix}",
-                          "--enable-avresample"
+                          "--prefix=#{prefix}"
+    inreplace "src/core/d2v.hpp", "FF_IDCT_XVIDMMX", "FF_IDCT_XVID"
+    inreplace "ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;" "//ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;"
     system "make", "install"
   end
   def post_install
+    ohai ""
     ohai "When you’re done installing plugins:"
     ohai "Please run linkvsp.sh to link the libraries."
   end

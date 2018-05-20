@@ -20,6 +20,7 @@ class VspFfms2 < Formula
     system "make", "install"
   end
   def post_install
+    ohai ""
     ohai "When you’re done installing plugins:"
     ohai "Please run linkvsp.sh to link the libraries."
   end

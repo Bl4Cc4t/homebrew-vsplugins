@@ -23,7 +23,9 @@ Since most of the plugins do not appear under `/usr/local/lib/vapoursynth` autom
 
 To link the plugins, please download the file `linkvsp.sh` and execute the following two commands:
 
-```chmod 4511 linkvsp.sh
-./linkvsp.sh```
+```
+chmod 4511 linkvsp.sh
+./linkvsp.sh
+```
 
 Test
