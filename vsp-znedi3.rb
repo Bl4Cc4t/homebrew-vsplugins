@@ -8,7 +8,7 @@ class VspZnedi3 < Formula
 
   patch do
     url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/modified-installations/patches/vsp-znedi3.patch"
-    sha256 "3ae1957eba15660004cc0c2de359e239b4f8b6457e9260f9625a8d3255d19c0e"
+    sha256 "69e711358ecb94fdeb335eaf1772e9a75c696d974747721d3097d5856284972a"
   end
 
   depends_on "libtool" => :build

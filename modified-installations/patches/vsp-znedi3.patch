@@ -1,12 +1,12 @@
 diff --git a/Makefile b/Makefile
-index 92edfb9..8cb5170 100644
+index 92edfb9..e3a2675 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -3,6 +3,7 @@ MY_CXXFLAGS := -std=c++14 -O2 -fPIC $(CXXFLAGS)
  MY_CPPFLAGS := -Iznedi3 -Ivsxx $(CPPFLAGS)
  MY_LDFLAGS := $(LDFLAGS)
  MY_LIBS := $(LIBS)
-+prefix = /usr/local/Cellar/znedi3/HEAD-b4a2013
++prefix = /usr/local/Cellar/vsp-znedi3/HEAD-b4a2013
  
  znedi3_HDRS = \
  	znedi3/align.h \
