@@ -1,10 +1,10 @@
-class VspYadifmod < Formula
-  desc "VapourSynth port of yadifmod"
-  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod"
+class VspTcanny < Formula
+  desc "VapourSynth port of tcanny"
+  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny"
   version "r10"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod/archive/r10.tar.gz"
-  sha256 "c62cc1bd0de9ec6637e01a03253c71d6edb6f151076d220194f0f555615032d5"
-  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod.git"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny/archive/r10.tar.gz"
+  sha256 "620e1ba10077b252e048a8dbd1269300fb33c6849b1914f4db426b7bd3b655c5"
+  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny.git"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
