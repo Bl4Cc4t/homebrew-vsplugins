@@ -11,8 +11,8 @@ class VspVfrtocfr < Formula
 
   def install
     (buildpath"/build").mkpath
-    Dir.chdir("#{buildpath}/build")
-    system "meson", "--prefix #{prefix} --buildtype release .."
+    # Dir.chdir("#{buildpath}/build")
+    system "meson --prefix #{prefix} --buildtype release .."
     system "ninja"
     system "ninja", "install"
   end
