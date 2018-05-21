@@ -49,6 +49,7 @@ List of Plugins
 - [degrainmedian](https://github.com/dubhater/vapoursynth-degrainmedian)
 - [DeLogo](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeLogo)
 - [DePan](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DePan)
+- [descale](https://github.com/Irrational-Encoding-Wizardry/vapoursynth-descale)
 - [DFTTest](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest)
 - [EEDI2](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2)
 - [EEDI3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3)
