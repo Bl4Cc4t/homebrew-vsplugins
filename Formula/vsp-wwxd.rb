@@ -8,7 +8,7 @@ class VspWwxd < Formula
   depends_on "vapoursynth"
 
   def install
-    system "gcc -o libwwxd.dylib -fPIC -shared -dynamiclib -O2 -Wall -Wextra -Wno-unused-parameter $(pkg-config --cflags vapoursynth) src/wwxd.c src/detection.c"
+    system "g++ -o libwwxd.dylib -fPIC -shared -dynamiclib -O2 -Wall -Wextra -Wno-unused-parameter $(pkg-config --cflags vapoursynth) src/wwxd.c src/detection.c"
     lib.install Dir["*.dylib"]
   end
   def post_install

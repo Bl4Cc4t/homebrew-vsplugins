@@ -53,6 +53,7 @@ List of Plugins
 - [EEDI2](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2)
 - [EEDI3](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3)
 - [ffms2](https://github.com/FFMS/ffms2)
+- [fieldhint](https://github.com/dubhater/vapoursynth-fieldhint)
 - [fillborders](https://github.com/dubhater/vapoursynth-fillborders)
 - [flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
 - [fluxsmooth](https://github.com/dubhater/vapoursynth-fluxsmooth)
