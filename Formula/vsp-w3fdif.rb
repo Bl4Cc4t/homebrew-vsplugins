@@ -17,6 +17,7 @@ class VspW3fdif < Formula
   def post_install
     ohai ""
     ohai "When you’re done installing plugins:"
-    ohai "Please run linkvsp.sh to link the libraries."
+    ohai "Please run linkvsp.sh to link the libraries:"
+    ohai "`/usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh`"
   end
 end
