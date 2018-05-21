@@ -58,6 +58,7 @@ List of Plugins
 - [SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)
 - [TCanny](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny)
 - [TDeintMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod)
+- [TTempSmooth](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth)
 - [VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)
 - [W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)
 - [znedi3](https://github.com/sekrit-twc/znedi3)

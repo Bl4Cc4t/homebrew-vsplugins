@@ -7,7 +7,6 @@ class VspKnlmeanscl < Formula
   head "https://github.com/Khanattila/KNLMeansCL.git"
 
   def install
-    Dir.chdir("#{buildpath}/build/unix")
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
