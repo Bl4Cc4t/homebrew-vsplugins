@@ -1,10 +1,10 @@
-class VspYadifmod < Formula
-  desc "VapourSynth port of yadifmod"
-  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod"
-  version "r10"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod/archive/r10.tar.gz"
-  sha256 "c62cc1bd0de9ec6637e01a03253c71d6edb6f151076d220194f0f555615032d5"
-  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod.git"
+class VspDeblockpp7 < Formula
+  desc "VapourSynth port of pp7 from MPlayer"
+  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7"
+  version "r4"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7/archive/r4.tar.gz"
+  sha256 "3bb7cdd302859754dbaf2216f9e110ebedcfde9e87f2738b1a50929657ab5732"
+  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7.git"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
