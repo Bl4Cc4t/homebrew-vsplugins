@@ -1,10 +1,10 @@
-class VspTdeintmod < Formula
-  desc "VapourSynth port of TDeint + TMM"
-  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod"
-  # version "r10"
-  # url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod/archive/r10.tar.gz"
-  # sha256 "46801e5620e7b012de6c040d60225a6fa8ec63afe78218d7f0edc360962a085d"
-  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod.git"
+class VspYadifmod < Formula
+  desc "VapourSynth port of yadifmod"
+  homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod"
+  version "r10"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod/archive/r10.tar.gz"
+  sha256 "c62cc1bd0de9ec6637e01a03253c71d6edb6f151076d220194f0f555615032d5"
+  head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod.git"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
