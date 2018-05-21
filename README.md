@@ -37,6 +37,7 @@ List of Plugins
 - [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)
 - [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)
 - [d2vsource](https://github.com/dwbuiten/d2vsource)
+- [DeLogo](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeLogo)
 - [ffms2](https://github.com/FFMS/ffms2)
 - [flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
 - [fmtconv](https://github.com/EleonoreMizo/fmtconv)
