@@ -44,6 +44,7 @@ List of Plugins
 - [fmtconv](https://github.com/EleonoreMizo/fmtconv)
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+- [Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)
 - [SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)
 - [SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)
 - [VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)
