@@ -46,5 +46,6 @@ List of Plugins
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
 - [SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)
 - [SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)
+- [VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)
 - [W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)
 - [znedi3](https://github.com/sekrit-twc/znedi3)
