@@ -5,7 +5,6 @@ class VspWwxd < Formula
 
   depends_on "pkg-config" => :build
   depends_on "libtool" => :build
-  depends_on "clang" => :build
   depends_on "vapoursynth"
 
   def install
