@@ -21,7 +21,8 @@ class VspSangnom < Formula
     system "make", "install"
   end
   def post_install
-    ohai "Linking via linkvsp.sh …"
-    system "/usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh"
+    ohai ""
+    ohai "When you’re done installing plugins:"
+    ohai "Please run linkvsp.sh to link the libraries."
   end
 end
