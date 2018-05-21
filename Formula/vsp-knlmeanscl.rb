@@ -9,8 +9,12 @@ class VspKnlmeanscl < Formula
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
   depends_on "zimg"
-  
+
   def install
+    inreplace "./configure" do |s|
+      s.gsub! ",-read_only_relocs,suppress -Wl", ""
+      s.gsub! "strip", "strip -x"
+    end
     system "./configure", "--install=#{lib}"
     system "make", "install"
   end
