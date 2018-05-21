@@ -18,7 +18,7 @@ class VspTcanny < Formula
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-    system "make", "install"
+    system "make", "OPENCLLDFLAGS=-framework OpenCL", "install"
   end
   def post_install
     ohai ""
