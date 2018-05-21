@@ -1,4 +1,4 @@
-class VspSFieldhint < Formula
+class VspFieldhint < Formula
   desc "SSIQ filter for VapourSynth"
   homepage "https://github.com/dubhater/vapoursynth-ssiq"
   version "1.0"
