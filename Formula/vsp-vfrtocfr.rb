@@ -16,7 +16,7 @@ class VspVfrtocfr < Formula
     system "mkdir", "#{buildpath}/build"
     #Dir.chdir("#{buildpath}/build")
     system "cd", "#{buildpath}/build"
-    system "mesonconf", "-Dcpp_std=c++11"
+    system "meson configure", "-Dcpp_std=c++11"
     system "meson", "--prefix #{prefix} --buildtype release .."
     system "ninja"
     system "ninja", "install"
