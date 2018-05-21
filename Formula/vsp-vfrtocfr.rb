@@ -12,7 +12,7 @@ class VspVfrtocfr < Formula
   depends_on "vapoursynth"
 
   def install
-    (buildpath"/build").mkpath
+    (buildpath/"build").mkpath
     Dir.chdir("#{buildpath}/build")
     # system "mkdir", "#{buildpath}/build"
     # system "cd", "#{buildpath}/build"
