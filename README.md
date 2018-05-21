@@ -26,11 +26,9 @@ Linking
 Since most of the plugins do not appear under `/usr/local/lib/vapoursynth` automatically, doing so requires an extra step.
 (It’s impossible to link during the installation via hombrew due to some restrictions when using third party taps).
 
-To link the plugins, please download the file `linkvsp.sh` and execute the following two commands:
-
+To link the plugins, simply execute the following command:
 ```
-chmod 4511 linkvsp.sh
-./linkvsp.sh
+/usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh
 ```
 
 List of Plugins
@@ -44,5 +42,6 @@ List of Plugins
 - [fmtconv](https://github.com/EleonoreMizo/fmtconv)
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+- [SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)
 - [SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)
 - [znedi3](https://github.com/sekrit-twc/znedi3)
