@@ -39,6 +39,7 @@ List of Plugins
 - [BM3D](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D)
 - [CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)
 - [d2vsource](https://github.com/dwbuiten/d2vsource)
+- [DeBlock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeBlock)
 - [DeLogo](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeLogo)
 - [DePan](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DePan)
 - [EEDI2](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2)
