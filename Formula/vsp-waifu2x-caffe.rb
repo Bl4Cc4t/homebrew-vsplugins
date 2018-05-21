@@ -10,13 +10,13 @@ class VspWaifu2xCaffe < Formula
   depends_on "automake" => :build
   depends_on "pkg-config" => :build
   depends_on "libtool" => :build
+  depends_on "vapoursynth"
 
   def install
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
-                          "--prefix=#{prefix}",
-                          "--enable-avresample"
+                          "--prefix=#{prefix}"
     system "make", "install"
   end
   def post_install
