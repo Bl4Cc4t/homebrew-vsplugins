@@ -5,6 +5,7 @@ class VspWwxd < Formula
 
   depends_on "pkg-config" => :build
   depends_on "libtool" => :build
+  depends_on "clang" => :build
   depends_on "vapoursynth"
 
   def install
@@ -16,7 +17,7 @@ class VspWwxd < Formula
                   "-Wall",
                   "-Wextra",
                   "-Wno-unused-parameter",
-                  "$(pkg-config --cflags vapoursynth)",
+                  "$$(pkg-config --cflags vapoursynth)",
                   "src/wwxd.c",
                   "src/detection.c"
     lib.install Dir["*.dylib"]
