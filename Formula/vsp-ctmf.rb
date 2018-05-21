@@ -11,7 +11,6 @@ class VspCtmf < Formula
   depends_on "pkg-config" => :build
   depends_on "libtool" => :build
   depends_on "vapoursynth"
-  depends_on "opencl"
 
   def install
     system "./autogen.sh"
