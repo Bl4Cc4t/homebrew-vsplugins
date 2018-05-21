@@ -12,7 +12,8 @@ class VspVfrtocfr < Formula
   depends_on "vapoursynth"
 
   def install
-    (buildpath"/build").mkpath
+    #(buildpath"/build").mkpath
+    system "mkdir", "#{buildpath}/build"
     Dir.chdir("#{buildpath}/build")
     system "meson --prefix #{prefix} --buildtype release .."
     system "ninja"
