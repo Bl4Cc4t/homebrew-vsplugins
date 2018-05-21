@@ -13,7 +13,7 @@ class VspVfrtocfr < Formula
     (buildpath"/build").mkpath
     Dir.chdir("#{buildpath}/build")
     system "meson", "--buildtype release",
-                    "--prefix #{prefix}"
+                    "--prefix #{prefix}",
                     ".."
     system "ninja"
     system "ninja", "install"
