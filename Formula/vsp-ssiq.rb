@@ -1,10 +1,10 @@
-class VspFieldhint < Formula
-  desc "Fieldhint plugin for VapourSynth"
-  homepage "https://github.com/dubhater/vapoursynth-fieldhint"
-  version "3"
-  url "https://github.com/dubhater/vapoursynth-fieldhint/archive/v3.tar.gz"
-  sha256 "600b3b3391737b7085073d8c49a4497984dad6a9736805ed60414d9c4ed185dc"
-  head "https://github.com/dubhater/vapoursynth-fieldhint.git"
+class VspSsiq < Formula
+  desc "SSIQ filter for VapourSynth"
+  homepage "https://github.com/dubhater/vapoursynth-ssiq"
+  version "1.0"
+  url "https://github.com/dubhater/vapoursynth-ssiq/archive/v1.0.tar.gz"
+  sha256 "25dfee8f13a5358d9284899bd640e8a102c0e82ad1278284e418575c625a9ab9"
+  head "https://github.com/dubhater/vapoursynth-ssiq.git"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
