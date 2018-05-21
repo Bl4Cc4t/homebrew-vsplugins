@@ -1,9 +1,9 @@
 class VspCnr2 < Formula
   desc "Chroma noise reducer"
   homepage "https://github.com/dubhater/vapoursynth-cnr2"
-  version "1"
-  url "https://github.com/dubhater/vapoursynth-cnr2/archive/v1.tar.gz"
-  sha256 "96187066c38fc7f280767240d2665e187495f583f23900127cdc9ed236fc2fcd"
+  # version "1"
+  # url "https://github.com/dubhater/vapoursynth-cnr2/archive/v1.tar.gz"
+  # sha256 "96187066c38fc7f280767240d2665e187495f583f23900127cdc9ed236fc2fcd"
   head "https://github.com/dubhater/vapoursynth-cnr2.git"
 
   depends_on "autoconf" => :build

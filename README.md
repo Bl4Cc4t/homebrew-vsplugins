@@ -35,8 +35,11 @@ List of Plugins
 ---------------
 
 - [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)
+- [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)
+- [bifrost](https://github.com/dubhater/vapoursynth-bifrost)
 - [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)
 - [BM3D](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D)
+- [cnr2](https://github.com/dubhater/vapoursynth-cnr2)
 - [CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)
 - [d2vsource](https://github.com/dwbuiten/d2vsource)
 - [DCTFilter](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter)
