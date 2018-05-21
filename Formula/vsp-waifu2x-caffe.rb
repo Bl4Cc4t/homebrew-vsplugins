@@ -10,6 +10,7 @@ class VspWaifu2xCaffe < Formula
   depends_on "automake" => :build
   depends_on "pkg-config" => :build
   depends_on "libtool" => :build
+  depends_on "boost"
   depends_on "vapoursynth"
 
   def install
