@@ -6,11 +6,12 @@ class VspKnlmeanscl < Formula
   sha256 "9e0df80c64cc48a522f37e3f6e4edafe8eba22c0f78bcc8f54fbfbe9e30aa479"
   head "https://github.com/Khanattila/KNLMeansCL.git"
 
+  depends_on "pkg-config" => :build
+  depends_on "vapoursynth"
+  depends_on "zimg"
+  
   def install
-    system "./autogen.sh"
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
+    system "./configure", "--install=#{lib}"
     system "make", "install"
   end
   def post_install
