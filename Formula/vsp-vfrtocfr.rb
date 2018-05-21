@@ -7,6 +7,7 @@ class VspVfrtocfr < Formula
   head "https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR.git"
 
   depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
 
