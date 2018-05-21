@@ -8,6 +8,7 @@ class VspFlash3kyuuDeband < Formula
 
   depends_on "cmake" => :build
   depends_on "python" => :build
+  depends_on "vapoursynth"
 
   def install
     system "python3", "waf", "configure", "--prefix=#{prefix}"

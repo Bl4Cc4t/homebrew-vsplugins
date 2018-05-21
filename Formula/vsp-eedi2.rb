@@ -6,9 +6,11 @@ class VspEedi2 < Formula
   sha256 "fd1ee1970b86e209440311b98ec326c30a072f1722a43294078f41be0fd7e374"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2.git"
 
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
   depends_on "pkg-config" => :build
+  depends_on "libtool" => :build
   depends_on "vapoursynth"
-  depends_on "zimg"
 
   def install
     system "./autogen.sh"
