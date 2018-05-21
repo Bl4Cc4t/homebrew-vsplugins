@@ -11,7 +11,10 @@ class VspEedi2 < Formula
   depends_on "zimg"
 
   def install
-    system "./configure", "--install=#{lib}"
+    system "./autogen.sh"
+    system "./configure", "--disable-debug",
+                          "--disable-dependency-tracking",
+                          "--prefix=#{prefix}"
     system "make", "install"
   end
   def post_install
