@@ -1,4 +1,4 @@
-class VspWwxd < Formula
+class VspDescale < Formula
   desc "VapourSynth plugin to undo upscaling"
   homepage "https://github.com/Irrational-Encoding-Wizardry/vapoursynth-descale"
   version "r2"

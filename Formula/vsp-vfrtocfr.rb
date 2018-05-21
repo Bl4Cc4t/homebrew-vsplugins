@@ -1,4 +1,4 @@
-class VspWwxd < Formula
+class VspVfrtocfr < Formula
   desc "Vapoursynth port of VFRToCFR"
   homepage "https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR"
   version "r2"
