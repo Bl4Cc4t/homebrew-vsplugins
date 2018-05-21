@@ -54,6 +54,8 @@ List of Plugins
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
 - [KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
+- [nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)
+- [NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)
 - [ReadMpls](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-ReadMpls)
 - [Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)
 - [SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)
