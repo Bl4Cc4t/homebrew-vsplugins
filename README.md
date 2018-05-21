@@ -51,6 +51,7 @@ List of Plugins
 - [flash3kyuu_deband](https://github.com/SAPikachu/flash3kyuu_deband)
 - [fmtconv](https://github.com/EleonoreMizo/fmtconv)
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
+- [KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
 - [ReadMpls](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-ReadMpls)
 - [Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)
