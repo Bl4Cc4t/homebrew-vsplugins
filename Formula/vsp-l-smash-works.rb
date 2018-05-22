@@ -4,7 +4,7 @@ class VspLSmashWorks < Formula
   head "https://github.com/VFR-maniac/L-SMASH-Works.git"
 
   depends_on "vapoursynth"
-  depends_on "lsmash"
+  depends_on "l-smash"
 
   def install
     Dir.chdir(buildpath/"VapourSynth")
