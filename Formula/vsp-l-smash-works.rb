@@ -8,7 +8,8 @@ class VspLSmashWorks < Formula
 
   def install
     Dir.chdir(buildpath/"VapourSynth")
-    system "./configure", "--prefix=#{lib}"
+    system "./configure", "--prefix=#{prefix}",
+                          "--vs-plugindir=''"
     system "make", "install"
   end
   def post_install
