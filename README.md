@@ -10,15 +10,16 @@ Having the package manager [Homebrew](https://brew.sh/) installed is mandatory (
 
 To begin, tap this repo: `brew tap bl4cc4t/vsplugins`.
 
-To install a plugin, simply use `brew install vsp-<pluginname>`
+To install a plugin, simply use `brew install --HEAD vsp-<pluginname>`
 
 I added the prefix “vsp-” for the ease of linking afterwards. Apart from that, it’s more tidy this way :)
 
-To install *all* plugins, use the following commands [to be expanded]:
-```
-brew install --HEAD vsp-d2vsource vsp-ffms2 vsp-flash3kyuu_deband vsp-fmtconv vsp-mvtools vsp-znedi3
-```
 The `HEAD` parameter allows Homebrew to download the latest commit from GitHub. This is recommended since some plugins tend to have releases that are way older.
+
+To install *all* plugins, use the following commands:
+```
+brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-bm3d vsp-cnr2 vsp-ctmf vsp-d2vsource vsp-damb vsp-dctfilter vsp-deblock vsp-deblockpp7 vsp-degrainmedian vsp-delogo vsp-depan vsp-descale vsp-dfttest vsp-eedi2 vsp-eedi3 vsp-ffms2 vsp-fieldhint vsp-fillborders vsp-flash3kyuu_deband vsp-fluxsmooth vsp-fmtconv vsp-histogram vsp-it vsp-knlmeanscl vsp-l-smash-works vsp-msmoosh vsp-mvtools vsp-nnedi3 vsp-nnedi3cl vsp-readmpls vsp-retinex vsp-sangnom vsp-sangnommod vsp-scrawl vsp-scxvid vsp-ssiq vsp-tcanny vsp-tcomb vsp-tdeintmod vsp-temporalsoften vsp-ttempsmooth vsp-vaguedenoiser vsp-vfrtocfr vsp-videoscope vsp-w3fdif vsp-wwxd
+```
 
 Linking
 -------
@@ -62,6 +63,7 @@ List of Plugins
 - [histogram](https://github.com/dubhater/vapoursynth-histogram)
 - [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)
 - [KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)
+- [L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)
 - [msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)
 - [mvtools](https://github.com/dubhater/vapoursynth-mvtools)
 - [nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)
