@@ -13,6 +13,7 @@ class VspRemapframes < Formula
   def install
     # system "meson", "configure", "-Dcpp_std=c++11"
     (buildpath/"build").mkpath
+    system "meson", ".", "build"
     Dir.chdir("#{buildpath}/build")
     system "meson", "--prefix #{prefix}",
                     "--buildtype release .."
