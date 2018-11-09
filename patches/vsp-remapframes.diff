@@ -1,0 +1,10 @@
+--- meson.build_o	2018-11-09 13:17:06.000000000 +0100
++++ meson.build	2018-11-09 13:20:05.000000000 +0100
+@@ -1,6 +1,6 @@
+ project('RemapFrames',
+         'cpp',
+-        default_options : 'buildtype=release',
++        default_options : ['buildtype=release', 'c_std=c11', 'cpp_std=c++11'],
+         license : 'BSD-2-Clause',
+         version : '1')
+ 

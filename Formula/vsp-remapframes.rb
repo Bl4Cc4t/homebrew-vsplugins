@@ -10,12 +10,17 @@ class VspRemapframes < Formula
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
 
+  patch do
+    url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-remapframes.diff"
+    sha256 "9a389ed56388e52aa85987c47b871b0ac22d5f9701af857824169f4235243337"
+  end
+
   def install
     (buildpath/"build").mkpath
     Dir.chdir("#{buildpath}/build")
     system "meson", "--prefix", "#{prefix}",
                     "--buildtype", "release", ".."
-    system "meson", "configure", "-Dcpp_std=c++11"
+    # system "meson", "configure", "-Dcpp_std=c++11"
     system "ninja"
     system "ninja", "install"
   end
