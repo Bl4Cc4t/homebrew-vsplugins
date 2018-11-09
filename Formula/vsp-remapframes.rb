@@ -11,12 +11,9 @@ class VspRemapframes < Formula
   depends_on "vapoursynth"
 
   def install
-    # system "ls"
-    # system "meson", "configure", "-Dcpp_std=c++11"
-    system "ls"
+    system "meson", "configure", "-Dcpp_std=c++11"
     (buildpath/"build").mkpath
     Dir.chdir("#{buildpath}/build")
-    system "ls"
     system "meson", "--prefix #{prefix}",
                     "--buildtype release .."
     system "ninja"
