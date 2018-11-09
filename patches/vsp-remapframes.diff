@@ -1,5 +1,7 @@
---- meson.build_o	2018-11-09 13:17:06.000000000 +0100
-+++ meson.build	2018-11-09 13:20:05.000000000 +0100
+diff --git a/meson.build b/meson.build
+index 8669000..e451297 100644
+--- a/meson.build
++++ b/meson.build
 @@ -1,6 +1,6 @@
  project('RemapFrames',
          'cpp',
