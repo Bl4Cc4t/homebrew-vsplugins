@@ -2,6 +2,8 @@
 # linkvsp.sh by Bl4Cc4t (2018)
 # checking for symlinks of vapoursynth plugins and adding them
 
+mkdir -p "$HOME/Library/Application Support/VapourSynth"
+echo "SystemPluginDir=/usr/local/lib/vapoursynth" > "$HOME/Library/Application Support/VapourSynth/vapoursynth.conf"
 ctr=0
 for d in $(find /usr/local/Cellar -type d -name "vsp-*"); do
   #echo "Found $(basename $d)!"
