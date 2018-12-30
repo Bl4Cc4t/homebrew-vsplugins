@@ -1,9 +1,9 @@
 class VspEedi3 < Formula
   desc "VapourSynth port of EEDI3"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3"
-  version "r3"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3/archive/r3.tar.gz"
-  sha256 "a522f3e8709cc2e07d1acac14050a08357393e9352572076cee9ea7793188650"
+  version "r4"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3/archive/r4.tar.gz"
+  sha256 "c4d758e0e5a4b0d1b84cd4f78d64a99e992b4e657cf71e3a7be42fdeb1bbf996"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3.git"
 
   depends_on "autoconf" => :build
