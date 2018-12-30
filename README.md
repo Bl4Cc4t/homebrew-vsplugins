@@ -51,7 +51,7 @@ List of Plugins (and latest version known to work)
 --------------------------------------------------------------------------------------------|---------|--------
 [CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)                      | 8a34ade | r4.1
 --------------------------------------------------------------------------------------------|---------|--------
-[d2vsource](https://github.com/dwbuiten/d2vsource)                                          | 99b10e3 |
+[d2vsource](https://github.com/dwbuiten/d2vsource)                                          | 99b10e3 | 
 [damb](https://github.com/dubhater/vapoursynth-damb)                                        |  |
 [DCTFilter](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter)            |  |
 [DeBlock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeBlock)                |  |
