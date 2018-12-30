@@ -1,9 +1,9 @@
 class VspNnedi3 < Formula
   desc "nnedi3 filter for VapourSynth"
   homepage "https://github.com/dubhater/vapoursynth-nnedi3"
-  version "11"
-  url "https://github.com/dubhater/vapoursynth-nnedi3/archive/v11.tar.gz"
-  sha256 "88bd063771b9078c4ba476b17df84fa9465ce951abacf3e711efe362350bde61"
+  version "12"
+  url "https://github.com/dubhater/vapoursynth-nnedi3/archive/v12.tar.gz"
+  sha256 "235f43ef4aac04ef2f42a8c44c2c16b077754a3e403992df4b87c8c4b9e13aa5"
   head "https://github.com/dubhater/vapoursynth-nnedi3.git"
 
   depends_on "autoconf" => :build
