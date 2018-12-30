@@ -8,6 +8,7 @@ class VspWwxd < Formula
   depends_on "vapoursynth"
 
   def install
+    inreplace "src/wwxd.c", "malloc(sizeof(d));", "static_cast<WwxdData*>(malloc(sizeof(d)));"
     system "g++ -o libwwxd.dylib -fPIC -shared -dynamiclib -O2 -Wall -Wextra -Wno-unused-parameter $(pkg-config --cflags vapoursynth) src/wwxd.c src/detection.c"
     lib.install Dir["*.dylib"]
   end
