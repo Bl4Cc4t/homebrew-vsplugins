@@ -15,7 +15,9 @@ class VspAddgrain < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure", "--install=#{lib}"
+    system "./configure", "--disable-debug",
+                          "--disable-dependency-tracking",
+                          "--prefix=#{prefix}"
     system "make"
   end
   def post_install
