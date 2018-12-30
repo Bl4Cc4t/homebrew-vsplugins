@@ -1,17 +1,21 @@
 class VspAddgrain < Formula
   desc "VapourSynth port of AddGrainC"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain"
-  version "r5"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain/archive/r5.tar.gz"
+  version "r7"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain/archive/r7.tar.gz"
   sha256 "c428d05fb4705616dc9c6fbe5f57b3216e3fb7b9c1cdf6094dfdc85d4eb0b5be"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain.git"
 
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
+  depends_on "pkg-config" => :build
   depends_on "vapoursynth"
   depends_on "zimg"
 
   def install
+    system "./autogen.sh"
     system "./configure", "--install=#{lib}"
-    system "make", "install"
+    system "make"
   end
   def post_install
     ohai ""
