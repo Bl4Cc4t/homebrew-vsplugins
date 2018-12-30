@@ -1,9 +1,9 @@
 class VspEedi2 < Formula
   desc "VapourSynth port of EEDI2"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2"
-  version "r7"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2/archive/r7.tar.gz"
-  sha256 "fd1ee1970b86e209440311b98ec326c30a072f1722a43294078f41be0fd7e374"
+  version "r7.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2/archive/r7.1.tar.gz"
+  sha256 "62146635e0d0cadfdd6b2426941968261992c7d6172d3a244802a1d5129b757a"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2.git"
 
   depends_on "autoconf" => :build
