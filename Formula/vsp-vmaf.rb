@@ -15,8 +15,8 @@ class VspVmaf < Formula
 
   def install
     inreplace "meson.build",
-              "vapoursynth_plugindir : join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
-              "vapoursynth_plugindir : '#{lib}'"
+              "vapoursynth_plugindir = join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
+              "vapoursynth_plugindir = '#{lib}'"
     system "meson", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"
