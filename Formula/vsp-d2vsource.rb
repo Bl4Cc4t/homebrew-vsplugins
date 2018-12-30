@@ -13,17 +13,19 @@ class VspD2vsource < Formula
   depends_on "vapoursynth"
   depends_on "ffmpeg"
 
+  stable do
+  # fixed in 99b10e3:
+    inreplace "src/core/d2v.hpp", "FF_IDCT_XVIDMMX", "FF_IDCT_XVID"
+    inreplace "ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;" "//ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;"
+  end
+  
   def install
     system "./autogen.sh"
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
 
-    stable do
-    # fixed in 99b10e3:
-      inreplace "src/core/d2v.hpp", "FF_IDCT_XVIDMMX", "FF_IDCT_XVID"
-      inreplace "ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;" "//ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;"
-    end
+
     system "make", "install"
   end
   def post_install
