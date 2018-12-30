@@ -11,12 +11,19 @@ class VspKnlmeanscl < Formula
   depends_on "zimg"
 
   def install
-    inreplace "./configure" do |s|
-      s.gsub! ",-read_only_relocs,suppress -Wl", ""
-      s.gsub! "strip", "strip -x"
-    end
-    system "./configure", "--install=#{lib}"
-    system "make", "install"
+    inreplace "meson.build",
+              "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')",
+              "install_dir : '#{lib}'"
+    system "meson", "build"
+    system "ninja", "-C", "build"
+    system "ninja", "-C", "build", "install"
+    # works with 1.1.1:
+    # inreplace "./configure" do |s|
+    #   s.gsub! ",-read_only_relocs,suppress -Wl", ""
+    #   s.gsub! "strip", "strip -x"
+    # end
+    # system "./configure", "--install=#{lib}"
+    # system "make", "install"
   end
   def post_install
     ohai ""
