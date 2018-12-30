@@ -6,18 +6,32 @@ class VspYadifmod < Formula
   sha256 "7d4862c285ce4252b6e55cb0499668be1867adee2327fbbf36ebb56d1804b2ba"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod.git"
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
+  # depends_on "autoconf" => :build
+  # depends_on "automake" => :build
+  # depends_on "pkg-config" => :build
+  # depends_on "libtool" => :build
+  # depends_on "vapoursynth"
+  #
+  # def install
+  #   system "./autogen.sh"
+  #   system "./configure", "--disable-debug",
+  #                         "--disable-dependency-tracking",
+  #                         "--prefix=#{prefix}"
+  #   system "make", "install"
+  # end
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "libtool" => :build
+  depends_on "boost" => :build
   depends_on "vapoursynth"
 
   def install
-    system "./autogen.sh"
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
-    system "make", "install"
+    inreplace "meson.build",
+              "install_dir : join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
+              "install_dir : '#{lib}'"
+    system "meson", "build"
+    system "ninja", "-C", "build"
+    system "ninja", "-C", "build", "install"
   end
   def post_install
     ohai ""
