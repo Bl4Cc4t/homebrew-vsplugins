@@ -11,9 +11,10 @@ class VspFlash3kyuuDeband < Formula
   depends_on "vapoursynth"
 
   def install
-    system "python3", "waf", "configure", "--prefix=#{prefix}"
-    system "python3", "waf", "build"
-    system "python3", "waf", "install"
+    ENV["PYTHON"] = "/usr/local/bin/python3"
+    system "./waf", "configure", "--prefix=#{prefix}"
+    system "./waf", "build"
+    system "./waf", "install"
   end
   def post_install
     ohai ""
