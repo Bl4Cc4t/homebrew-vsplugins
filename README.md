@@ -63,9 +63,9 @@ List of Plugins (and latest version known to work)
 [fmtconv](https://github.com/EleonoreMizo/fmtconv)                                          | 394a360 | r20
 [histogram](https://github.com/dubhater/vapoursynth-histogram)                              | f67ec10 | 2
 [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)                          | 6fc9be8 |
-[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      |  |
-[L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                |  |
-[msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  |  |
+[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | 27f9599 | 1.1.1
+[L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                | 3edd194 |
+[msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  |  | 1.1
 [mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  |  |
 [nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)                                    |  |
 [NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)              |  |
@@ -83,6 +83,7 @@ List of Plugins (and latest version known to work)
 [temporalsoften](https://github.com/dubhater/vapoursynth-temporalsoften)                    |  |
 [TTempSmooth](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth)        |  |
 [VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)    |  |
+[VMAF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VMAF)                      |  |
 [VFRToCFR](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR)            |  |
 [videoscope](https://github.com/dubhater/vapoursynth-videoscope)                            |  |
 [W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)                  |  |
