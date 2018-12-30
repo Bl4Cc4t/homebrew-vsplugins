@@ -65,7 +65,7 @@ List of Plugins (and latest version known to work)
 [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)                          | 6fc9be8 |
 [KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | 27f9599 | 1.1.1
 [L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                | 3edd194 |
-[msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  |  | 1.1
+[msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  | e5a7221 | 1.1
 [mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  |  |
 [nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)                                    |  |
 [NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)              |  |
