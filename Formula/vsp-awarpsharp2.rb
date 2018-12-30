@@ -3,7 +3,7 @@ class VspAwarpsharp2 < Formula
   homepage "https://github.com/dubhater/vapoursynth-awarpsharp2"
   version "4"
   url "https://github.com/dubhater/vapoursynth-awarpsharp2/archive/v4.tar.gz"
-  sha256 "a489d6fd4d45ce64e2fa48057acdba1c6198870f87608d4e71ca658de3f45159"
+  sha256 "b22102694ee68d43b9bdbf5584856e024a0ace00e95da2f4e1e3b82524d16c4c"
   head "https://github.com/dubhater/vapoursynth-awarpsharp2.git"
 
   depends_on "autoconf" => :build
