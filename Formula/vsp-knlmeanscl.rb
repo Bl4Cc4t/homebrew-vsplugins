@@ -6,6 +6,8 @@ class VspKnlmeanscl < Formula
   sha256 "9e0df80c64cc48a522f37e3f6e4edafe8eba22c0f78bcc8f54fbfbe9e30aa479"
   head "https://github.com/Khanattila/KNLMeansCL.git"
 
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
   depends_on "zimg"
