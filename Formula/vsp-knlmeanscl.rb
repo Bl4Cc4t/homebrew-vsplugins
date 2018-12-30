@@ -21,6 +21,11 @@ boost = dependency('boost', modules : ['filesystem', 'system'])"
       s.gsub! "[vapoursynth, opencl]", "[vapoursynth, opencl, boost]"
     end
     inreplace "KNLMeansCL/shared/ocl_utils.h", "#include <CL/opencl.h>", "#include <OpenCL/opencl.h>"
+    inreplace "KNLMeansCL/NLMVapoursynth.cpp" do |s|
+      s.gsub! "if (snprintf(options", "snprintf(options"
+      s.gsub! ")
+#else", "#else"
+    end
     system "meson", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"
