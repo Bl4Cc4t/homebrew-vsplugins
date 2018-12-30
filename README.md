@@ -18,7 +18,7 @@ The `HEAD` parameter allows Homebrew to download the latest commit from GitHub. 
 
 To install *all* plugins, use the following command:
 ```
-brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-bm3d vsp-cnr2 vsp-ctmf vsp-d2vsource vsp-damb vsp-dctfilter vsp-deblock vsp-deblockpp7 vsp-degrainmedian vsp-delogo vsp-depan vsp-descale vsp-dfttest vsp-eedi2 vsp-eedi3 vsp-ffms2 vsp-fieldhint vsp-fillborders vsp-flash3kyuu_deband vsp-fluxsmooth vsp-fmtconv vsp-histogram vsp-it vsp-knlmeanscl vsp-l-smash-works vsp-msmoosh vsp-mvtools vsp-nnedi3 vsp-nnedi3cl vsp-readmpls vsp-remapframes vsp-retinex vsp-sangnom vsp-sangnommod vsp-scrawl vsp-scxvid vsp-ssiq vsp-tcanny vsp-tcomb vsp-tdeintmod vsp-temporalsoften vsp-ttempsmooth vsp-vaguedenoiser vsp-vfrtocfr vsp-videoscope vsp-w3fdif vsp-wwxd
+brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-bm3d vsp-cnr2 vsp-ctmf vsp-d2vsource vsp-damb vsp-dctfilter vsp-deblock vsp-deblockpp7 vsp-degrainmedian vsp-delogo vsp-descale vsp-dfttest vsp-eedi2 vsp-eedi3 vsp-ffms2 vsp-fieldhint vsp-fillborders vsp-flash3kyuu_deband vsp-fluxsmooth vsp-fmtconv vsp-histogram vsp-it vsp-knlmeanscl vsp-l-smash-works vsp-msmoosh vsp-mvtools vsp-nnedi3 vsp-nnedi3cl vsp-readmpls vsp-remapframes vsp-retinex vsp-sangnom vsp-scrawl vsp-scxvid vsp-ssiq vsp-tcanny vsp-tcomb vsp-tdeintmod vsp-temporalsoften2 vsp-ttempsmooth vsp-vaguedenoiser vsp-vfrtocfr vsp-videoscope vsp-vmaf vsp-w3fdif vsp-wwxd vsp-yadifmod vsp-znedi3
 ```
 
 Linking
@@ -66,26 +66,26 @@ List of Plugins (and latest version known to work)
 [KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | 27f9599 | 1.1.1
 [L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                | 3edd194 |
 [msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  | e5a7221 | 1.1
-[mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  |  |
-[nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)                                    |  |
-[NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)              |  |
-[ReadMpls](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-ReadMpls)              |  |
-[RemapFrames](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames)      |  |
-[Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)                |  |
-[SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)                              |  |
-[SangNomMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod)          |  |
-[scrawl](https://github.com/dubhater/vapoursynth-scrawl)                                    |  |
-[scxvid](https://github.com/dubhater/vapoursynth-scxvid)                                    |  |
-[ssiq](https://github.com/dubhater/vapoursynth-ssiq)                                        |  |
-[TCanny](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny)                  |  |
-[tcomb](https://github.com/dubhater/vapoursynth-tcomb)                                      |  |
-[TDeintMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod)            |  |
-[temporalsoften](https://github.com/dubhater/vapoursynth-temporalsoften)                    |  |
-[TTempSmooth](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth)        |  |
-[VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)    |  |
-[VMAF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VMAF)                      |  |
-[VFRToCFR](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR)            |  |
-[videoscope](https://github.com/dubhater/vapoursynth-videoscope)                            |  |
-[W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)                  |  |
-[wwxd](https://github.com/dubhater/vapoursynth-wwxd)                                        |  |
-[znedi3](https://github.com/sekrit-twc/znedi3)                                              |  |
+[mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  | 876dfb1 | 20
+[nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)                                    | 8c35822 | 12
+[NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)              | c3120d5 | r7.2
+[ReadMpls](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-ReadMpls)              | 2a0f835 | r3
+[RemapFrames](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames)      | 8669000 |
+[Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)                | f7abea5 | r4
+[SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)                              | 5a00bb6 |
+[scrawl](https://github.com/dubhater/vapoursynth-scrawl)                                    | 1e16ea5 | 1.0
+[scxvid](https://github.com/dubhater/vapoursynth-scxvid)                                    | 48817c0 | 1
+[ssiq](https://github.com/dubhater/vapoursynth-ssiq)                                        | 30b3a47 | 1.0
+[TCanny](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny)                  | 88c9623 | r11
+[tcomb](https://github.com/dubhater/vapoursynth-tcomb)                                      | 48108a0 | 3
+[TDeintMod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod)            | 96418f0 | r10.1
+[temporalsoften2](https://github.com/dubhater/vapoursynth-temporalsoften2)                  | 97e4817 | 1
+[TTempSmooth](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth)        | 67df78f | r3.1
+[VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)    | f925f1a | r2
+[VMAF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VMAF)                      | 7b1cd3c | r2.1
+[VFRToCFR](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR)            | 6c8cd2b |
+[videoscope](https://github.com/dubhater/vapoursynth-videoscope)                            | 527b9b0 | 1.0
+[W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)                  | 8aecb6c | r1
+[wwxd](https://github.com/dubhater/vapoursynth-wwxd)                                        | a587086 |
+[Yadifmod](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod)              | 8aad01a | r10.1
+[znedi3](https://github.com/sekrit-twc/znedi3)                                              | 815beb9 |
