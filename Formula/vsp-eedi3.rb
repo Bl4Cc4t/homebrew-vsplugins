@@ -18,7 +18,7 @@ class VspEedi3 < Formula
                     "build"
     system "ninja", "-C", "build"
     ENV["DESTDIR"] = "#{prefix}"
-    system "ninja", "build", "install"
+    system "ninja", "-C", "build", "install"
   end
   def post_install
     ohai ""
