@@ -4,7 +4,7 @@ class VspFlash3kyuuDeband < Formula
   version "2.0.0-1"
   url "https://github.com/SAPikachu/flash3kyuu_deband/archive/2.0.0-1.tar.gz"
   sha256 "5f68d017b45f8aecfeee3ac5343964c71eb8cbc209711aa5ad4dc9408f90f411"
-  head "https://github.com/FFMS/ffms2.git"
+  head "https://github.com/SAPikachu/flash3kyuu_deband.git"
 
   depends_on "cmake" => :build
   depends_on "python" => :build
