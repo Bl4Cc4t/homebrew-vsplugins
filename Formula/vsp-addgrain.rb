@@ -18,7 +18,7 @@ class VspAddgrain < Formula
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-    system "make"
+    system "make", "install"
   end
   def post_install
     ohai ""
