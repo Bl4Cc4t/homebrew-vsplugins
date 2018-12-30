@@ -37,7 +37,7 @@ List of Plugins (and latest version known to work)
 
 Name                                                                                | HEAD    | Release
 ------------------------------------------------------------------------------------|---------|--------
-- [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)    | 2fb3503 | r7
+[AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)      | 2fb3503 | r7
 ------------------------------------------------------------------------------------|---------|--------
 - [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)                |
 - [bifrost](https://github.com/dubhater/vapoursynth-bifrost)                        |
