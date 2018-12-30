@@ -32,18 +32,20 @@ To link the plugins, simply execute the following command:
 /usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh
 ```
 
-List of Plugins
----------------
+List of Plugins (and latest version known to work)
+--------------------------------------------------
 
+Name                                                                                | Version
+------------------------------------------------------------------------------------|-----
 - [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)    | r7
-- [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)
-- [bifrost](https://github.com/dubhater/vapoursynth-bifrost)
-- [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)
-- [BM3D](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D)
-- [cnr2](https://github.com/dubhater/vapoursynth-cnr2)
-- [CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)
-- [d2vsource](https://github.com/dwbuiten/d2vsource)
-- [damb](https://github.com/dubhater/vapoursynth-damb)
+- [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)                |
+- [bifrost](https://github.com/dubhater/vapoursynth-bifrost)                        |
+- [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)  |
+- [BM3D](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D)            |
+- [cnr2](https://github.com/dubhater/vapoursynth-cnr2)                              |
+- [CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)            |
+- [d2vsource](https://github.com/dwbuiten/d2vsource)                                |
+- [damb](https://github.com/dubhater/vapoursynth-damb)                              |
 - [DCTFilter](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter)
 - [DeBlock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeBlock)
 - [DeblockPP7](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7)
