@@ -1,9 +1,9 @@
 class VspDfttest < Formula
   desc "VapourSynth port of dfttest"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest"
-  version "r4"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest/archive/r4.tar.gz"
-  sha256 "8ef85c41c05550479c06bcf8ab761c71d932cee062dd341c447d9000bdc2e9ca"
+  version "r4.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest/archive/r4.1.tar.gz"
+  sha256 "d74747be71aa4c356b9ce196e6d268121aabb89e0c99a11591f63e69346eb5cc"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest.git"
 
   depends_on "autoconf" => :build
