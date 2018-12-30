@@ -16,7 +16,7 @@ I added the prefix “vsp-” for the ease of linking afterwards. Apart from tha
 
 The `HEAD` parameter allows Homebrew to download the latest commit from GitHub. This is recommended since some plugins tend to have releases that are way older.
 
-To install *all* plugins, use the following commands:
+To install *all* plugins, use the following command:
 ```
 brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-bm3d vsp-cnr2 vsp-ctmf vsp-d2vsource vsp-damb vsp-dctfilter vsp-deblock vsp-deblockpp7 vsp-degrainmedian vsp-delogo vsp-depan vsp-descale vsp-dfttest vsp-eedi2 vsp-eedi3 vsp-ffms2 vsp-fieldhint vsp-fillborders vsp-flash3kyuu_deband vsp-fluxsmooth vsp-fmtconv vsp-histogram vsp-it vsp-knlmeanscl vsp-l-smash-works vsp-msmoosh vsp-mvtools vsp-nnedi3 vsp-nnedi3cl vsp-readmpls vsp-remapframes vsp-retinex vsp-sangnom vsp-sangnommod vsp-scrawl vsp-scxvid vsp-ssiq vsp-tcanny vsp-tcomb vsp-tdeintmod vsp-temporalsoften vsp-ttempsmooth vsp-vaguedenoiser vsp-vfrtocfr vsp-videoscope vsp-w3fdif vsp-wwxd
 ```
@@ -35,7 +35,7 @@ To link the plugins, simply execute the following command:
 List of Plugins
 ---------------
 
-- [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)
+- [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)    | r7
 - [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)
 - [bifrost](https://github.com/dubhater/vapoursynth-bifrost)
 - [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)
