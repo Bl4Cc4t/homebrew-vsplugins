@@ -35,7 +35,7 @@ To link the plugins, simply execute the following command:
 List of Plugins (and latest version known to work)
 --------------------------------------------------
 
-Name                                                                                | HEAD    | Release
+ Name                                                                               | HEAD    | Release
 ------------------------------------------------------------------------------------|---------|--------
 [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)      | 2fb3503 | r7
 ------------------------------------------------------------------------------------|---------|--------
@@ -49,8 +49,9 @@ Name                                                                            
 ------------------------------------------------------------------------------------|---------|--------
 [cnr2](https://github.com/dubhater/vapoursynth-cnr2)                                | 1f2c901 |
 ------------------------------------------------------------------------------------|---------|--------
-[CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)              |
-- [d2vsource](https://github.com/dwbuiten/d2vsource)                                  |
+[CTMF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF)              | 8a34ade | r4.1
+------------------------------------------------------------------------------------|---------|--------
+- [d2vsource](https://github.com/dwbuiten/d2vsource)                                  |  | 1.1
 - [damb](https://github.com/dubhater/vapoursynth-damb)                                |
 - [DCTFilter](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter)
 - [DeBlock](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeBlock)

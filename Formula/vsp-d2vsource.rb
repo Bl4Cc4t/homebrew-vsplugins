@@ -18,8 +18,8 @@ class VspD2vsource < Formula
     system "./configure", "--disable-debug",
                           "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-    inreplace "src/core/d2v.hpp", "FF_IDCT_XVIDMMX", "FF_IDCT_XVID"
-    inreplace "ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;" "//ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;"
+    # inreplace "src/core/d2v.hpp", "FF_IDCT_XVIDMMX", "FF_IDCT_XVID"
+    # inreplace "ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;" "//ret->avctx->flags |= CODEC_FLAG_EMU_EDGE;"
     system "make", "install"
   end
   def post_install
