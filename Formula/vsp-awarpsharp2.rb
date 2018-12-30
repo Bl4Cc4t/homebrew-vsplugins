@@ -1,8 +1,8 @@
 class VspAwarpsharp2 < Formula
   desc "Sharpens by warping"
   homepage "https://github.com/dubhater/vapoursynth-awarpsharp2"
-  version "3"
-  url "https://github.com/dubhater/vapoursynth-awarpsharp2/archive/v3.tar.gz"
+  version "4"
+  url "https://github.com/dubhater/vapoursynth-awarpsharp2/archive/v4.tar.gz"
   sha256 "a489d6fd4d45ce64e2fa48057acdba1c6198870f87608d4e71ca658de3f45159"
   head "https://github.com/dubhater/vapoursynth-awarpsharp2.git"
 

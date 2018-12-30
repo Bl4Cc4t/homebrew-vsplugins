@@ -39,7 +39,7 @@ Name                                                                            
 ------------------------------------------------------------------------------------|---------|--------
 [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)      | 2fb3503 | r7
 ------------------------------------------------------------------------------------|---------|--------
-- [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)                |
+[awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)                  | 886d4b7 | v4
 - [bifrost](https://github.com/dubhater/vapoursynth-bifrost)                        |
 - [Bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)  |
 - [BM3D](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D)            |
