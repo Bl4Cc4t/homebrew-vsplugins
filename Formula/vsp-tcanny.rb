@@ -1,24 +1,24 @@
 class VspTcanny < Formula
   desc "VapourSynth port of tcanny"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny"
-  version "r10"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny/archive/r10.tar.gz"
-  sha256 "620e1ba10077b252e048a8dbd1269300fb33c6849b1914f4db426b7bd3b655c5"
+  version "r11"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny/archive/r11.tar.gz"
+  sha256 "01219e14afe962fbf53870e6ac04cb3d75265b9443f3fba522c3a67aa6063e17"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny.git"
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "libtool" => :build
   depends_on "boost" => :build
   depends_on "vapoursynth"
 
   def install
-    system "./autogen.sh"
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
-    system "make", "OPENCLLDFLAGS=-framework OpenCL", "install"
+    inreplace "meson.build",
+              "install_dir : join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
+              "install_dir : '#{lib}'"
+    system "meson", "build"
+    system "ninja", "-C", "build"
+    system "ninja", "-C", "build", "install"
   end
   def post_install
     ohai ""
