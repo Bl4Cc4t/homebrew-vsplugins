@@ -1,9 +1,9 @@
 class VspDeblock < Formula
   desc "VapourSynth port of Deblock"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock"
-  version "r6"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock/archive/r6.tar.gz"
-  sha256 "131be862aac027a2d292974222f1bc4d156cce1514ded8a0c4150d0d4c2c94c4"
+  version "r6.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock/archive/r6.1.tar.gz"
+  sha256 "d428c60c20f462d2975811727f578709e56bd8b744998a9d7fc66250fa6c6a76"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock.git"
 
   depends_on "autoconf" => :build
