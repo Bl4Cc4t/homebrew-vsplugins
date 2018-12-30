@@ -1,9 +1,9 @@
 class VspCtmf < Formula
   desc "Constant Time Median Filtering"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF"
-  version "r4"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF/archive/r4.tar.gz"
-  sha256 "5454345969e8b5550c397c5952334fd140b3920ecc566103c2b491c5e693d2d3"
+  version "r4.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF/archive/r4.1.tar.gz"
+  sha256 "04af7fab53d868191a2ef593569abf0e8d4bf877257bbea8adfbbcf879861609"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF.git"
 
   depends_on "autoconf" => :build
