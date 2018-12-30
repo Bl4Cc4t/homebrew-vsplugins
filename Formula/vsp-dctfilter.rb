@@ -1,9 +1,9 @@
 class VspDctfilter < Formula
   desc "Renewed VapourSynth port of DCTFilter"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter"
-  version "r2"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter/archive/r2.tar.gz"
-  sha256 "d00f848619ca8b8eae138d0cb1707dde635b9f62f4039c29a2537e2cf9988896"
+  version "r2.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter/archive/r2.1.tar.gz"
+  sha256 "80b2e283ac694a7b37cc84f7e50ca3f7f18e370f31342edf0cfbcc2e5869c573"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter.git"
 
   depends_on "autoconf" => :build
