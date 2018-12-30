@@ -13,7 +13,7 @@ class VspEedi3 < Formula
   depends_on "vapoursynth"
 
   def install
-    system "meson", "--prefix", "#{prefix}",
+    system "meson", "--prefix", "lib",
                     "--buildtype", "plain",
                     "build"
     system "ninja", "-C", "build"
