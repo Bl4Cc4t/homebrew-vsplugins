@@ -13,11 +13,11 @@ class VspEedi3 < Formula
   depends_on "vapoursynth"
 
   def install
-    system "meson", "--prefix", "#{prefix}",
-                    "--buildtype", "plain",
-                    "build"
+    inreplace "meson.build",
+              "install_dir : join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
+              "install_dir : #{prefix}"
+    system "meson", "build"
     system "ninja", "-C", "build"
-    # ENV["DESTDIR"] = "#{prefix}"
     system "ninja", "-C", "build", "install"
   end
   def post_install
