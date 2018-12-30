@@ -16,6 +16,7 @@ class VspEedi3 < Formula
     system "meson", "--prefix", "#{prefix}", "build"
     system "ninja", "-C", "build"
     Dir.chdir("#{buildpath}/build")
+    ENV["DESTDIR"] = "#{prefix}"
     system "ninja", "install"
   end
   def post_install
