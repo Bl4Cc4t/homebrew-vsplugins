@@ -1,9 +1,9 @@
 class VspDeblockpp7 < Formula
   desc "VapourSynth port of pp7 from MPlayer"
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7"
-  version "r4"
-  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7/archive/r4.tar.gz"
-  sha256 "3bb7cdd302859754dbaf2216f9e110ebedcfde9e87f2738b1a50929657ab5732"
+  version "r4.1"
+  url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7/archive/r4.1.tar.gz"
+  sha256 "354570217e256bc3fdf8edd5b7a8a4722498af4ff126771f30e8de9a31cb953e"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7.git"
 
   depends_on "autoconf" => :build
