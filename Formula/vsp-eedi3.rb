@@ -15,7 +15,7 @@ class VspEedi3 < Formula
   def install
     inreplace "meson.build",
               "install_dir : join_paths(vapoursynth_dep.get_pkgconfig_variable('libdir'), 'vapoursynth')",
-              "install_dir : '#{prefix}'"
+              "install_dir : '#{lib}'"
     system "meson", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"
