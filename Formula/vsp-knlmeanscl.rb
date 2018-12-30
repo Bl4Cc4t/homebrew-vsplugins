@@ -16,7 +16,9 @@ class VspKnlmeanscl < Formula
   def install
     inreplace "meson.build" do |s|
       s.gsub! "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')", "install_dir : '#{lib}'"
-      s.gsub! "meson.get_compiler('cpp').find_library('OpenCL')", "dependency('OpenCL')"
+      s.gsub! "meson.get_compiler('cpp').find_library('OpenCL')", "dependency('OpenCL')
+boost = dependency('boost', modules : ['filesystem', 'system'])"
+      s.gsub! "[vapoursynth, opencl]", "[vapoursynth, opencl, boost]"
     end
     system "meson", "build"
     system "ninja", "-C", "build"
