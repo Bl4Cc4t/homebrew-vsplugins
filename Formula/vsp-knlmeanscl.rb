@@ -14,9 +14,10 @@ class VspKnlmeanscl < Formula
   depends_on "zimg"
 
   def install
-    inreplace "meson.build",
-              "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')",
-              "install_dir : '#{lib}'"
+    inreplace "meson.build" do |s|
+      s.gsub! "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')", "install_dir : '#{lib}'"
+      s.gsub! "meson.get_compiler('cpp').find_library('OpenCL')", "dependency('OpenCL')"
+    end
     system "meson", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"
