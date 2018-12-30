@@ -1,9 +1,9 @@
 class VspHistogram < Formula
   desc "Histogram plugin for VapourSynth"
   homepage "https://github.com/dubhater/vapoursynth-histogram"
-  version "1.0"
-  url "https://github.com/dubhater/vapoursynth-histogram/archive/v1.0.tar.gz"
-  sha256 "4b9a958e3c2446c039050c85272b96178d8f27793fd01699f0c3a508f1d72989"
+  version "2"
+  url "https://github.com/dubhater/vapoursynth-histogram/archive/v2.tar.gz"
+  sha256 "17d33d98d52310e3890dd12411e9065f95e6b3249b4b8b8edd10d5e416674013"
   head "https://github.com/dubhater/vapoursynth-histogram.git"
 
   depends_on "autoconf" => :build
