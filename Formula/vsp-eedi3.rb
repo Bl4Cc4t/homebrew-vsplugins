@@ -13,11 +13,12 @@ class VspEedi3 < Formula
   depends_on "vapoursynth"
 
   def install
-    system "meson", "--prefix", "#{prefix}", "build"
+    system "meson", "--prefix", "#{prefix}",
+                    "--buildtype", "plain",
+                    "build"
     system "ninja", "-C", "build"
-    Dir.chdir("#{buildpath}/build")
     ENV["DESTDIR"] = "#{prefix}"
-    system "ninja", "install"
+    system "ninja", "build", "install"
   end
   def post_install
     ohai ""
