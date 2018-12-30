@@ -3,7 +3,7 @@ class VspAddgrain < Formula
   homepage "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain"
   version "r7"
   url "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain/archive/r7.tar.gz"
-  sha256 "c428d05fb4705616dc9c6fbe5f57b3216e3fb7b9c1cdf6094dfdc85d4eb0b5be"
+  sha256 "3adeb77f59b6da43663f906523eb19e47a16a8a9b9607ad97442f09ab12680b9"
   head "https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain.git"
 
   depends_on "autoconf" => :build
