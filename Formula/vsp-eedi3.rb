@@ -14,8 +14,9 @@ class VspEedi3 < Formula
 
   def install
     system "meson", "--prefix", "#{prefix}", "build"
-    system "ninja", "-C", "build", "install"
-    # system "ninja", "install"
+    system "ninja", "-C", "build"
+    Dir.chdir("#{buildpath}/build")
+    system "ninja", "install"
   end
   def post_install
     ohai ""
