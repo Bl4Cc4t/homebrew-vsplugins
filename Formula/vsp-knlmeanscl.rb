@@ -1,9 +1,9 @@
 class VspKnlmeanscl < Formula
   desc "An optimized OpenCL implementation of the Non-local means de-noising algorithm"
   homepage "https://github.com/Khanattila/KNLMeansCL"
-  version "1.1.1"
-  url "https://github.com/Khanattila/KNLMeansCL/archive/v1.1.1.tar.gz"
-  sha256 "9e0df80c64cc48a522f37e3f6e4edafe8eba22c0f78bcc8f54fbfbe9e30aa479"
+  # version "1.1.1"
+  # url "https://github.com/Khanattila/KNLMeansCL/archive/v1.1.1.tar.gz"
+  # sha256 "9e0df80c64cc48a522f37e3f6e4edafe8eba22c0f78bcc8f54fbfbe9e30aa479"
   head "https://github.com/Khanattila/KNLMeansCL.git"
 
   depends_on "meson" => :build
