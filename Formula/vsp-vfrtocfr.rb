@@ -11,10 +11,11 @@ class VspVfrtocfr < Formula
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
 
-  patch do
-    url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-vfrtocfr.diff"
-    sha256 "21880d2c08ba3fdae7097315c2e20e5aea1c9539fc6eb347a8a7e6e0003a3a41"
-  end
+  # fixed in d00a374:
+  # patch do
+  #   url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-vfrtocfr.diff"
+  #   sha256 "21880d2c08ba3fdae7097315c2e20e5aea1c9539fc6eb347a8a7e6e0003a3a41"
+  # end
 
   def install
     # system "meson", "configure", "-Dcpp_std=c++11"

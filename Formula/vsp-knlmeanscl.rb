@@ -14,18 +14,19 @@ class VspKnlmeanscl < Formula
   depends_on "zimg"
 
   def install
-    inreplace "meson.build" do |s|
-      s.gsub! "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')", "install_dir : '#{lib}'"
-      s.gsub! "meson.get_compiler('cpp').find_library('OpenCL')", "dependency('OpenCL')
-boost = dependency('boost', modules : ['filesystem', 'system'])"
-      s.gsub! "[vapoursynth, opencl]", "[vapoursynth, opencl, boost]"
-    end
-    inreplace "KNLMeansCL/shared/ocl_utils.h", "#include <CL/opencl.h>", "#include <OpenCL/opencl.h>"
-    inreplace "KNLMeansCL/NLMVapoursynth.cpp" do |s|
-      s.gsub! "if (snprintf(options", "snprintf(options"
-      s.gsub! ")
-#else", "#else"
-    end
+    # fixed in fbb60ec:
+#     inreplace "meson.build" do |s|
+#       s.gsub! "install_dir : join_paths(get_option('prefix'), get_option('libdir'), 'vapoursynth')", "install_dir : '#{lib}'"
+#       s.gsub! "meson.get_compiler('cpp').find_library('OpenCL')", "dependency('OpenCL')
+# boost = dependency('boost', modules : ['filesystem', 'system'])"
+#       s.gsub! "[vapoursynth, opencl]", "[vapoursynth, opencl, boost]"
+#     end
+#     inreplace "KNLMeansCL/shared/ocl_utils.h", "#include <CL/opencl.h>", "#include <OpenCL/opencl.h>"
+#     inreplace "KNLMeansCL/NLMVapoursynth.cpp" do |s|
+#       s.gsub! "if (snprintf(options", "snprintf(options"
+#       s.gsub! ")
+# #else", "#else"
+#     end
     system "meson", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"

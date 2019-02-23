@@ -10,10 +10,11 @@ class VspRemapframes < Formula
   depends_on "pkg-config" => :build
   depends_on "vapoursynth"
 
-  patch do
-    url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-remapframes.diff"
-    sha256 "b24c8b4b54199cb055addcba9209eddeb24d58d54a87582bdb7442aaecc89a60"
-  end
+  # fixed in 0232654:
+  # patch do
+  #   url "https://raw.githubusercontent.com/Bl4Cc4t/homebrew-vsplugins/master/patches/vsp-remapframes.diff"
+  #   sha256 "b24c8b4b54199cb055addcba9209eddeb24d58d54a87582bdb7442aaecc89a60"
+  # end
 
   def install
     (buildpath/"build").mkpath
