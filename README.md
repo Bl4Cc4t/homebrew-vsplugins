@@ -63,14 +63,14 @@ List of Plugins (and latest version known to work)
 [fmtconv](https://github.com/EleonoreMizo/fmtconv)                                          | 394a360 | r20
 [histogram](https://github.com/dubhater/vapoursynth-histogram)                              | f67ec10 | 2
 [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)                          | 6fc9be8 |
-[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | fbb60ec | 
+[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | fbb60ec |
 [L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                | 3edd194 |
 [msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  | e5a7221 | 1.1
 [mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  | 876dfb1 | 20
 [nnedi3](https://github.com/dubhater/vapoursynth-nnedi3)                                    | 8c35822 | 12
 [NNEDI3CL](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL)              | c3120d5 | r7.2
 [ReadMpls](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-ReadMpls)              | 2a0f835 | r3
-[RemapFrames](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames)      | 8669000 |
+[RemapFrames](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames)      | 0232654 |
 [Retinex](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Retinex)                | f7abea5 | r4
 [SangNom](https://bitbucket.org/James1201/vapoursynth-sangnom)                              | 5a00bb6 |
 [scrawl](https://github.com/dubhater/vapoursynth-scrawl)                                    | 1e16ea5 | 1.0
@@ -83,7 +83,7 @@ List of Plugins (and latest version known to work)
 [TTempSmooth](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth)        | 67df78f | r3.1
 [VagueDenoiser](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VagueDenoiser)    | f925f1a | r2
 [VMAF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-VMAF)                      | 7b1cd3c | r2.1
-[VFRToCFR](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR)            | 6c8cd2b |
+[VFRToCFR](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR)            | d00a374 |
 [videoscope](https://github.com/dubhater/vapoursynth-videoscope)                            | 527b9b0 | 1.0
 [W3FDIF](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF)                  | 8aecb6c | r1
 [wwxd](https://github.com/dubhater/vapoursynth-wwxd)                                        | a587086 |
