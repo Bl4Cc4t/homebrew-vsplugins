@@ -27,7 +27,7 @@ class VspKnlmeanscl < Formula
 #       s.gsub! ")
 # #else", "#else"
 #     end
-    system "meson", "build"
+    system "meson", "--prefix", "#{prefix}", "build"
     system "ninja", "-C", "build"
     system "ninja", "-C", "build", "install"
     # works with 1.1.1:

@@ -63,7 +63,7 @@ List of Plugins (and latest version known to work)
 [fmtconv](https://github.com/EleonoreMizo/fmtconv)                                          | 394a360 | r20
 [histogram](https://github.com/dubhater/vapoursynth-histogram)                              | f67ec10 | 2
 [IT](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-IT)                          | 6fc9be8 |
-[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | 27f9599 | 1.1.1
+[KNLMeansCL](https://github.com/Khanattila/KNLMeansCL)                                      | fbb60ec | 
 [L-SMASH-Works](https://github.com/VFR-maniac/L-SMASH-Works)                                | 3edd194 |
 [msmoosh](https://github.com/dubhater/vapoursynth-msmoosh)                                  | e5a7221 | 1.1
 [mvtools](https://github.com/dubhater/vapoursynth-mvtools)                                  | 876dfb1 | 20
