@@ -1,10 +1,9 @@
-homebrew-vsplugins
-==================
+# homebrew-vsplugins
+
 
 This repository is a way to automate the installation of plugins for [VapourSynth](https://github.com/vapoursynth/vapoursynth).
 
-Installation
-------------
+## Installation
 
 Having the package manager [Homebrew](https://brew.sh/) installed is mandatory (duh).
 
@@ -21,8 +20,8 @@ To install *all* plugins, use the following command:
 brew install --HEAD vsp-addgrain vsp-awarpsharp2 vsp-bifrost vsp-bilateral vsp-bm3d vsp-cnr2 vsp-ctmf vsp-d2vsource vsp-damb vsp-dctfilter vsp-deblock vsp-deblockpp7 vsp-degrainmedian vsp-delogo vsp-descale vsp-dfttest vsp-eedi2 vsp-eedi3 vsp-ffms2 vsp-fieldhint vsp-fillborders vsp-flash3kyuu_deband vsp-fluxsmooth vsp-fmtconv vsp-histogram vsp-it vsp-knlmeanscl vsp-l-smash-works vsp-msmoosh vsp-mvtools vsp-nnedi3 vsp-nnedi3cl vsp-readmpls vsp-remapframes vsp-retinex vsp-sangnom vsp-scrawl vsp-scxvid vsp-ssiq vsp-tcanny vsp-tcomb vsp-tdeintmod vsp-temporalsoften2 vsp-ttempsmooth vsp-vaguedenoiser vsp-vfrtocfr vsp-videoscope vsp-vmaf vsp-w3fdif vsp-wwxd vsp-yadifmod vsp-znedi3
 ```
 
-Linking
--------
+## Linking
+
 
 Since most of the plugins do not appear under `/usr/local/lib/vapoursynth` automatically, doing so requires an extra step.
 (It’s impossible to link during the installation via hombrew due to some restrictions when using third party taps).
@@ -32,10 +31,9 @@ To link the plugins, simply execute the following command:
 /usr/local/Homebrew/Library/Taps/bl4cc4t/homebrew-vsplugins/linkvsp.sh
 ```
 
-List of Plugins (and latest version known to work)
---------------------------------------------------
+## List of Plugins (and latest version known to work)
 
- Name                                                                                       | HEAD    | Release
+Name                                                                                        | HEAD    | Release
 --------------------------------------------------------------------------------------------|---------|--------
 [AddGrain](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain)              | 2fb3503 | r7
 [awarpsharp2](https://github.com/dubhater/vapoursynth-awarpsharp2)                          | 886d4b7 | 4
